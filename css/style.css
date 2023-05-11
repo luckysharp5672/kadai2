@@ -1,0 +1,48 @@
+.title {
+    font-size: 36px;
+    font-weight: bold;
+    padding: 50px;
+}
+p {
+    font-size: 20px;
+    padding-bottom:30px;
+    padding-left: 30px;
+}
+
+.buttons {
+    padding: 0px 0px 40px 80px;
+}
+
+.syobu {
+    font-weight: bold
+}
+
+ul {
+    font-size: 20px;
+    padding-bottom:30px;
+    padding-left: 30px;
+}
+
+.jibunte {
+    font-weight: bold;
+}
+
+.cpute {
+    font-weight: bold;
+}
+
+.resultte {
+    font-weight: bold;
+}
+
+.ruikei {
+    font-weight: bold;
+}
+
+.soutokuten {
+    font-weight: bold;
+}
+
+#imageContainer {
+    
+}

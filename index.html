@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>じゃんけんいろいろ</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+    <h1 class="title">10回勝負じゃんけん！</h1>
+
+        <!-- じゃんけんボタンを押すとアクティブになるようにしたい -->
+        <div class="buttons">
+            <!-- <button type="submit" class="button1" onclick="func1()">じゃんけん,,,</button> -->
+            <input type="button" id="rock" value="ぐー✊" onclick="janken(0)">
+            <input type="button" id="scissors" value="ちょき🤞" onclick="janken(1)">
+            <input type="button" id="paper" value="ぱー✋" onclick="janken(2)">  
+        </div>
+        <div>
+            <p class="syobu">勝負数：</p>
+            <p id="count">0</p>
+        </div>
+        <p class="jibunte">自分の手札：</p>
+        <p class="jibun">""</p>
+        <p class="cpute">CPUの手札：</p>
+        <p class="cpu">""</p>
+        <p class="resultte" >今回の勝敗：</p>
+        <p class="result">""</p>
+        <p class="ruikei">勝敗累計</p>
+        <ul>
+            <li>勝ち：<span id="wins">0</span></li>
+            <li>あいこ：<span id="draws">0</span></li>
+            <li>負け：<span id="losses">0</span></li>
+        </ul>
+        <p></p>
+        
+        <p class = "soutokuten">総得点：</p>
+        <p><span class="totalScore"></span></p>
+        <p>総得点20点以上を目指そう！　総得点がマイナスだったら悲しいな</p>
+
+        <div id="imageContainer"></div>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+
+    <script src="js/janken.js"></script>
+
+
+    <!-- <form> -->
+        <!-- <button type="submit" id="button1" onclick="func1()">設定</button>
+        <button type="submit" id="button2" onclick="func2()" disabled>クリア</button> -->
+        <!-- <div id="output"></div> -->
+    <!-- </form> -->
+
+</body>
+</html>
